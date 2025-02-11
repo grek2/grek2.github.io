@@ -2,8 +2,7 @@ body {
     font-family: "Courier New", monospace;
     text-align: center;
     background-color: ##baf1ff;
-    border-color: "green";
-    border-width: 100px;
+      border: 10px solid green;
 }
 h1 {
     color: #333;
