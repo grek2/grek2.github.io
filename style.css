@@ -2,7 +2,7 @@ body {
     font-family: "Courier New", monospace;
     text-align: left;
     background-color: ##baf1ff;
-    border: 2px soild pink;
+    border-color: 2px soild pink;
     margin-left: auto;
     margin-right: auto;
     width: 960px;
