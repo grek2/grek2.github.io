@@ -1,38 +1,51 @@
-nav {
-    font-family: "Courier New", monospace;
-    text-align: center;
-    background-color: ##baf1ff;
-    border-style: 10px solid double soild double;
-    border-color: pink;
-    margin-left: auto;
-    margin-right: auto;
-    width: 960px;
-    color: white;
-
-
-      body {
-
-          background-image: url("stars.jpeg");
-          background-repeat: no-repeat;
-          background-color: black;
-          background-attachment: fixed; 
-          background-size: 100% 100%;
-  
-          color: aqua;
-  
-          font-family: Courier;
-          text-align: center;
-
-
-    
+  .div-class{
+  background-color: mistyrose;
+  border: 10px solid rebeccapurple;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
 }
-h1 {
-    text-color: white;
+  
+  body {
+
+  background-image: url("stars.jpeg");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  
+  color: indigo;
+  
+  font-family: Courier;
+  text-align: center;
+  
+  
+  
+  
+
 }
-button {
-    padding: 10px;
-    background: blue;
-    color: white;
-    border: none;
-    cursor: pointer;
+
+
+a:link {
+  color: blue;
+  
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  
+  text-decoration: none;
+}
+
+a:hover {
+  color: indigo;
+  
+  text-decoration: underline;
+}
+
+a:active {
+  color: indigo;
+  
+  text-decoration: underline;
 }
