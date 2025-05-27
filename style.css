@@ -7,13 +7,14 @@ nav {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
+    text-color: white;
   
 
 
     
 }
 h1 {
-    color: #333;
+    text-color: white;
 }
 button {
     padding: 10px;
