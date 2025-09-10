@@ -1,7 +1,1 @@
-echo "# madison" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/grek2/madison.git
-git push -u origin main
+I tried to make a website but i got bored and did other stuff.
