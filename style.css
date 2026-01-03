@@ -5,6 +5,14 @@
   margin-right: auto;
   width: 960px;
 }
+.div-class2{
+background-color: mistyrose;
+  border: 10px solid rebeccapurple;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  float:right
+}
   
   body {
 
