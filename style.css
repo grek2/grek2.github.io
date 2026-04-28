@@ -15,10 +15,6 @@ background-color: mistyrose;
 }
 
 
-
-  h1 {
-  font-family: Jazz LET, Fantasy;
-  }
   body {
 
   background-image: url("stars.jpeg");
@@ -29,7 +25,7 @@ background-color: mistyrose;
   
   color: indigo;
   
-  font-family: Courier;
+  font-family: Jazz LET, Fantasy;
   text-align: center;
   
   
