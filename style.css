@@ -13,7 +13,12 @@ background-color: mistyrose;
   width: 960px;
   float:right
 }
-  
+
+
+
+  h1 {
+  font-family: Jazz LET, Fantasy;
+  }
   body {
 
   background-image: url("stars.jpeg");
