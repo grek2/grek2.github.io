@@ -23,7 +23,7 @@ background-color: mistyrose;
   float:left
 }
 .div-square {
-  background-color: mistyrose;
+  background-image: url("everycolor.png");
   border: 10px solid rebeccapurple;
   margin-left: auto;
   margin-right: auto;
