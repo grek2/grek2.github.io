@@ -1,4 +1,4 @@
-  .div-class-middle{
+  .div-mid{
   background-color: mistyrose;
   border: 10px solid rebeccapurple;
   margin-left: auto;
@@ -6,7 +6,7 @@
   width: 960px;
   float: middle;
 }
-.div-class-right{
+.div-right{
 background-color: mistyrose;
   border: 10px solid rebeccapurple;
   margin-left: auto;
@@ -14,13 +14,23 @@ background-color: mistyrose;
   width: 960px;
   float:right
 }
-.div-class-left{
+.div-left{
 background-color: mistyrose;
   border: 10px solid rebeccapurple;
   margin-left: auto;
   margin-right: auto;
   width: 960px;
   float:left
+}
+.div-square {
+  background-color: mistyrose;
+  border: 10px solid rebeccapurple;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  float: middle
+  height: 960px;
+  
 }
 
 
