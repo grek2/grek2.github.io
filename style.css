@@ -30,9 +30,12 @@ background-color: mistyrose;
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  float: middle;
-  
+  float: middle; 
 }
+ .square-div {
+    width: 50vw;
+    height: 50vw;
+ }
 
 
   body {
