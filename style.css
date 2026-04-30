@@ -23,13 +23,14 @@ background-color: mistyrose;
   float:left
 }
 .div-color {
-  background-color: palegreen;
+  background-image: url("everycolor.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   border: 10px solid rebeccapurple;
   margin-left: auto;
   margin-right: auto;
   width: 960px;
-  float: middle
-  height: 960px;
+  float: middle;
   
 }
 
