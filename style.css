@@ -26,11 +26,12 @@ background-color: mistyrose;
   background-image: url("everycolor.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  border: 10px solid rebeccapurple;
+  border: 10px dotted black;
   margin-left: auto;
   margin-right: auto;
   width: 960px;
   float: middle; 
+  text-color: white;
 }
  .square-div {
     width: 50vw;
