@@ -36,6 +36,8 @@ background-color: mistyrose;
  .square-div {
     width: 50vw;
     height: 50vw;
+    border: 10px solid rebeccapurple;
+    background-color: mistyrose;
  }
 
 
