@@ -1,0 +1,57 @@
+I did not make this, my friend did like a year ago and i wanted to preserve it somewhere
+<DOCTYPE! html> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<h3>Encode text:</h3> 
+<input type="text" placeholder="Raw text" id="encodeInput">
+<br> <button type="button" onclick="encode()">Encode Text</button>
+<button type="button" style="display:none" id="hiddenbutton" onclick="copyEncoded()">Copy to Clipboard</button> 
+<p id="textoutput1"></p> <h3>Decode text:</h3> <input type="text" placeholder="Encoded text" id="decodeInput"> 
+<br> 
+<button type="button" onclick="decode()">Decode Text</button>
+<button type="button" style="display:none" id="hiddenbutton1" onclick="copyDecoded()">Copy to Clipboard</button> 
+<p id="textoutput2"></p> 
+<script> 
+const list1 = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0"," ",".","!",",","'","?"]; 
+const list2 = ["%CC%80","%CC%81","%CC%82","%CC%83","%CC%84","%CC%85","%CC%91","%CC%86","%CC%87","%CC%88","%CC%89","%CC%8A","%CC%8F","%CC%8B","%CC%8C","%CC%96","%CC%97","%CC%AD","%CC%B0","%CC%B1","%CC%B2","%CC%AF","%CC%AE","%CC%A3","%CC%A4","%CC%A8","%CC%A5","%CC%AC","%CC%8D","%CC%8E","%CC%90","%CC%92","%CC%93","%CC%94","%CC%95","%CC%A9","%CC%A7","%CC%A6","%CD%9D","%CD%A1","%CD%9E","%CD%9C","%CD%9F"]; 
+let output = ""; 
+function encode() { 
+output = ""; 
+document.getElementById("textoutput1").innerHTML = "the hellfrog wishes you a happy day%F0%9F%94%A5%F0%9F%90%B8" + encodeInner() + "%F0%9F%94%A5"; 
+document.getElementById("hiddenbutton").style = "display:initial" }; 
+function decode() { output = ""; 
+document.getElementById("textoutput2").innerHTML = decodeInner(); 
+document.getElementById("hiddenbutton1").style = "display:initial"; 
+}; 
+
+function copyEncoded(){ 
+navigator.clipboard.writeText(document.getElementById("textoutput1").innerHTML); 
+document.getElementById("textoutput1").innerHTML = "Copied!"; } 
+  
+function copyDecoded(){ 
+navigator.clipboard.writeText(document.getElementById("textoutput2").innerHTML); 
+document.getElementById("textoutput2").innerHTML = "Copied!"; 
+}
+
+function encodeInner(){ 
+let inputA = document.getElementById('encodeInput').value.toLowerCase(); 
+for (let i of inputA){ 
+if (list1.indexOf(i) == -1){ 
+  output = output + i; 
+} else { 
+output = output + list2[list1.indexOf(i)]; 
+}; 
+};
+return output 
+}; 
+  
+function decodeInner(){ 
+let inputA = document.getElementById('decodeInput').value; 
+for (let i of inputA)
+{ if (list2.indexOf(i) == -1)
+{ output = output + i; 
+} else {
+output = output + list1[list2.indexOf(i)]; 
+}; 
+}; 
+return output 
+}; %3C/script%3E %3C/DOCTYPE%3E
